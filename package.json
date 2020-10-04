@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "react": "^15.0"
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-http-proxy": "1.6.2",
+    "mongodb": "2.2.26"
+  },
+  "scripts": {
+    "start:mongo": "node mongo.js",
+    "start:express": "node express.js"
   }
 }
